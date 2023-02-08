@@ -1,0 +1,137 @@
+.myskills-wrapper {
+	border: 1px solid blue;
+	margin-top: 4rem;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem;
+}
+.vector2 {
+	border: 1px solid darkgreen;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.animblob {
+	position: absolute;
+	z-index: -9;
+	top: -3rem;
+	left: 1rem;
+	height: 35rem;
+}
+.skills {
+	border: 1px solid darkmagenta;
+	flex: 1;
+	position: relative;
+	/* display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center; */
+}
+.skills-title {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 8rem;
+	left: 14.7rem;
+	z-index: 10;
+	font-size: 3.5rem;
+}
+.blur3 {
+	background: #abf1ff94;
+	position: absolute;
+	height: 14rem;
+	width: 22rem;
+	border-radius: 50%;
+	filter: blur(150px);
+	z-index: -9;
+	left: 2rem;
+	bottom: -20rem;
+}
+.blur4 {
+	background: rgb(232, 71, 232);
+	position: absolute;
+	height: 10rem;
+	width: 17rem;
+	border-radius: 50%;
+	filter: blur(250px);
+	z-index: -9;
+	right: 2rem;
+	bottom: -2rem;
+}
+.skills-circle {
+	left: 13rem;
+	top: 7rem;
+	position: relative;
+	width: 12rem;
+	height: 12rem;
+	border-radius: 100%;
+	box-shadow: var(--smboxShadow);
+	background: #fff;
+}
+.skills-circle > * {
+	position: absolute;
+}
+.skills-circle > :nth-child(1) {
+	top: -2rem;
+	left: 5rem;
+}
+.skills-circle > :nth-child(2) {
+	top: -1rem;
+	right: 0.1rem;
+}
+.skills-circle > :nth-child(3) {
+	top: -1rem;
+	left: 0.1rem;
+}
+.skills-circle > :nth-child(4) {
+	top: 2.5rem;
+	left: -2rem;
+}
+.skills-circle > :nth-child(5) {
+	bottom: 3rem;
+	left: -2rem;
+}
+.skills-circle > :nth-child(6) {
+	top: 2.5rem;
+	right: -2.2rem;
+}
+.skills-circle > :nth-child(7) {
+	bottom: 3rem;
+	right: -2rem;
+}
+.skills-circle > :nth-child(8) {
+	bottom: -2.2rem;
+	right: 2.2rem;
+}
+.skills-circle > :nth-child(9) {
+	bottom: -0.3rem;
+	right: -0.7rem;
+}
+.skills-circle > :nth-child(10) {
+	bottom: -2.3rem;
+	left: 3.3rem;
+}
+.skills-circle > :nth-child(11) {
+	bottom: -0.6rem;
+	left: -0.3rem;
+}
+.skills-bg {
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 100%;
+	z-index: -1;
+	left: 18rem;
+	filter: blur(20px);
+}
+.blue-circle {
+	background: #19b83c;
+	top: 8rem;
+}
+.yellow-circle {
+	background: #f5c32c;
+	top: 5rem;
+}

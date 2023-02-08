@@ -1,0 +1,13 @@
+.works-wrapper {
+	border: 1px solid red;
+}
+.title-div {
+	border: 1px solid rgb(179, 16, 255);
+	text-align: center;
+}
+.title-div > h2 {
+	color: #fca61f;
+}
+.works-list {
+	border: 1px solid rgb(0, 0, 0);
+}

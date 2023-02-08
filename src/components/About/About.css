@@ -1,0 +1,49 @@
+.about-section {
+	border: 1px solid rgb(4, 0, 255);
+	padding: 1rem;
+}
+.title {
+	text-align: center;
+	color: var(--orange);
+}
+.about-wrapper {
+	border: 1px solid red;
+	display: flex;
+	gap: 1rem;
+	background-color: #fff;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 12px 17px 21px -3px rgba(0, 0, 0, 0.2);
+}
+.about-left {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid rgb(0, 0, 0);
+}
+.about-discription {
+	font-weight: 500;
+	font-size: larger;
+	color: var(--orange);
+	padding: 1rem;
+}
+.resume-btn {
+	background-color: var(--orange);
+	padding: 6px 14px;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 3px 14px 30px 0px rgba(0, 0, 0, 0.3);
+}
+.about-right {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+}
+.lottie-image {
+	height: 450px;
+}
