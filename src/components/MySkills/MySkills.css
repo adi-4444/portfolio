@@ -4,6 +4,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	padding: 1rem;
+	-webkit-user-select: none;
+	user-select: none;
 }
 .vector2 {
 	border: 1px solid darkgreen;

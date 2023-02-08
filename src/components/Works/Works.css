@@ -1,5 +1,7 @@
 .works-wrapper {
 	border: 1px solid red;
+	-webkit-user-select: none;
+	user-select: none;
 }
 .title-div {
 	border: 1px solid rgb(179, 16, 255);

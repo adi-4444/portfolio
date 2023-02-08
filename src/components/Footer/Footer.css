@@ -1,0 +1,26 @@
+.footer-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.footer-wrapper > h1 {
+	margin-top: 3rem;
+	color: var(--orange);
+}
+.footer-content {
+	margin-top: 3rem;
+	display: flex;
+	gap: 3rem;
+}
+.wave {
+	margin: -4rem -2rem -4rem -2rem;
+	z-index: -4;
+}
+.copyright {
+	text-align: center;
+	font-weight: 500;
+	position: absolute;
+	bottom: -3.5rem;
+}

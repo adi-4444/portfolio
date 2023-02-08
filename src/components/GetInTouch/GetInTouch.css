@@ -1,0 +1,86 @@
+.contact-wrapper {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contact-wrapper > h1 {
+	color: var(--orange);
+}
+.contact-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contact-left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: -9rem;
+	position: relative;
+	border: 1px solid brown;
+	color: var(--orange);
+}
+.contact-left > p {
+	color: black;
+	font-weight: 500;
+}
+.blur5 {
+	position: absolute;
+	background: #abf1ff94;
+	height: 14rem;
+	width: 22rem;
+	border-radius: 50%;
+	filter: blur(150px);
+	z-index: -9;
+	top: 2rem;
+	left: -3rem;
+}
+.contact-form-div {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 1rem;
+	border: 1px solid red;
+}
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.input {
+	width: 18rem;
+	margin-bottom: 1.5rem;
+	padding: 8px 15px;
+	border: 2px solid var(--orange);
+	border-radius: 7px;
+	outline: none;
+}
+.message {
+	padding: 25px 15px;
+}
+.submit-btn {
+	padding: 7px 18px;
+	margin-bottom: 3rem;
+	cursor: pointer;
+	background-color: var(--orange);
+	border: none;
+	border-radius: 8px;
+	font-weight: 600;
+	box-shadow: 3px 14px 30px 0px rgba(0, 0, 0, 0.3);
+}
+.blur6 {
+	position: absolute;
+	background: var(--purple);
+	height: 10rem;
+	width: 20rem;
+	border-radius: 50%;
+	filter: blur(150px);
+	z-index: -9;
+}

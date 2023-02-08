@@ -9,6 +9,8 @@
 	height: 40vh;
 	overflow: auto;
 	-ms-overflow-style: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 .projects-wrapper::-webkit-scrollbar {
 	display: none;
@@ -37,7 +39,7 @@
 	border-radius: 20px;
 	z-index: 1;
 }
-.footer-wrapper {
+.project-footer {
 	background-color: #fff;
 	padding: 1.5rem 2rem;
 	width: 15rem;

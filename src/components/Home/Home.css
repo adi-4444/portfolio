@@ -5,6 +5,8 @@
 	border: 1px solid black;
 	height: 70vh;
 	flex-wrap: wrap;
+	-webkit-user-select: none;
+	user-select: none;
 }
 .home-left {
 	flex: 1;

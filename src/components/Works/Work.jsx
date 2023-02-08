@@ -3,13 +3,6 @@ import "./Work.css";
 import { SiGithub } from "react-icons/si";
 
 const Work = ({ data }) => {
-	console.log(data);
-	const siteBtn = () => {
-		console.log("Site");
-	};
-	const gitBtn = () => {
-		console.log("Git");
-	};
 	return (
 		<div className='projects-wrapper'>
 			{data?.map((item) => (
@@ -22,7 +15,7 @@ const Work = ({ data }) => {
 							className='img'
 						/>
 					</div>
-					<div className='footer-wrapper'>
+					<div className='project-footer'>
 						<div className='name'>
 							<h4>{item.name}</h4>
 						</div>
@@ -32,18 +25,10 @@ const Work = ({ data }) => {
 								target='_blank'
 								rel='noreferrer'
 							>
-								<button
-									onClick={siteBtn}
-									className='btn visit-btn'
-								>
-									Visit
-								</button>
+								<button className='btn visit-btn'>Visit</button>
 							</a>
 							<a href={item.git} target='_blank' rel='noreferrer'>
-								<button
-									onClick={gitBtn}
-									className='btn code-btn'
-								>
+								<button className='btn code-btn'>
 									<SiGithub /> Code
 								</button>
 							</a>

@@ -3,7 +3,7 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import Right from "./Right/Right";
 import git from "../../assets/images/github.png";
-import insta from "../../assets/images/instagram.png";
+import { SiGmail } from "react-icons/si";
 import linked from "../../assets/images/linkedin.png";
 
 const Home = () => {
@@ -38,9 +38,27 @@ const Home = () => {
 					<button className='connect-btn'>Connect</button>
 				</div>
 				<div className='connect-links'>
-					<img src={git} alt='git' height={50} />
-					<img src={insta} alt='insta' height={50} />
-					<img src={linked} alt='linkedin' height={50} />
+					<a
+						href='https://github.com/adi-4444'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<img src={git} alt='git' height={50} />
+					</a>
+					<a
+						href='mailto:adinarayana4444@gmail.com'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<SiGmail size={52} color='#fca61f' />
+					</a>
+					<a
+						href='https://www.linkedin.com/in/adi4444/'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<img src={linked} alt='linkedin' height={50} />
+					</a>
 				</div>
 			</div>
 			<div className='home-right'>
