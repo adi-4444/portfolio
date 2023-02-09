@@ -1,5 +1,4 @@
 .contact-wrapper {
-	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -21,7 +20,6 @@
 	justify-content: center;
 	margin-top: -9rem;
 	position: relative;
-	border: 1px solid brown;
 	color: var(--orange);
 }
 .contact-left > p {
@@ -46,7 +44,6 @@
 	justify-content: center;
 	position: relative;
 	padding: 1rem;
-	border: 1px solid red;
 }
 .contact-form {
 	display: flex;
@@ -88,7 +85,7 @@
 	.contact-wrapper {
 		margin-top: 3rem;
 		width: 100vw;
-		margin-left: -1.3rem;
+		margin-left: -0.5rem;
 	}
 	.contact-wrapper > h1 {
 		margin-top: 1rem;

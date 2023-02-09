@@ -57,8 +57,16 @@
 @media screen and (max-width: 480px) {
 	.footer-wrapper {
 		width: 90vw;
+		margin-left: 0.5rem;
+	}
+	.footer-wrapper > h1 {
+		margin-top: 1rem;
 	}
 	.footer-content {
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
+	}
+	.wave {
+		margin: -4rem -3.5rem -4rem -3.5rem;
+		z-index: -4;
 	}
 }

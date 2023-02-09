@@ -27,7 +27,7 @@ const Footer = () => {
 	};
 	return (
 		<div className='footer-wrapper' id='footer'>
-			<h1>Contact</h1>
+			<h1>Contact me ! </h1>
 			<div className='footer-content'>
 				<a
 					href='mailto:adinarayana4444@gmail.com'

@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid black;
+
 	height: 70vh;
 	-webkit-user-select: none;
 	user-select: none;
@@ -10,7 +10,6 @@
 .home-left {
 	flex: 1;
 	padding: 2rem;
-	border: 1px solid blue;
 	font-size: xx-large;
 	color: var(--black);
 	display: flex;
@@ -38,7 +37,6 @@
 .home-right {
 	flex: 1;
 	padding: 2rem;
-	border: 1px solid rgb(220, 48, 63);
 }
 .btn-div {
 	display: flex;
@@ -72,11 +70,12 @@
 	}
 	.home-left {
 		width: 100vw;
-		margin-left: 3rem;
+		margin-left: 5rem;
 	}
 	.site-logo {
-		top: -2rem;
-		left: 0rem;
+		position: absolute;
+		top: -1rem;
+		left: 1rem;
 		font-weight: 500;
 		font-size: 2rem;
 	}

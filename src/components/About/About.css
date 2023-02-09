@@ -3,7 +3,6 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid rgb(4, 0, 255);
 	padding: 1rem;
 	-webkit-user-select: none;
 	user-select: none;
@@ -13,7 +12,6 @@
 	color: var(--orange);
 }
 .about-wrapper {
-	border: 1px solid red;
 	display: flex;
 	gap: 1rem;
 	background-color: #fff;
@@ -27,7 +25,6 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	border: 1px solid rgb(0, 0, 0);
 }
 .about-discription {
 	font-weight: 500;
@@ -49,7 +46,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid rgb(0, 0, 0);
 }
 .lottie-image {
 	height: 450px;
@@ -58,7 +54,7 @@
 	.about-section {
 		width: 100vw;
 		padding: 0rem;
-		margin-left: -2rem;
+		margin-left: -1rem;
 	}
 	.about-wrapper {
 		flex-direction: column;
@@ -75,6 +71,6 @@
 		width: 100vw;
 	}
 	.resume-btn {
-		margin-bottom: 1rem;
+		margin-bottom: 3rem;
 	}
 }
