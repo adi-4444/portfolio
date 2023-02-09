@@ -80,3 +80,15 @@
 	align-items: center;
 	gap: 5px;
 }
+@media screen and (max-width: 480px) {
+	.projects-wrapper {
+		margin: 2rem 0rem;
+		gap: 0rem;
+		height: 80vh;
+	}
+	.project-footer {
+		-webkit-box-shadow: 10px 24px 85px -27px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 10px 24px 85px -27px rgba(0, 0, 0, 0.4);
+		box-shadow: 10px 24px 85px -27px rgba(0, 0, 0, 0.4);
+	}
+}

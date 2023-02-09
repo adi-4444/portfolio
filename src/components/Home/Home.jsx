@@ -8,9 +8,9 @@ import linked from "../../assets/images/linkedin.png";
 
 const Home = () => {
 	return (
-		<div className='home-wrapper'>
+		<div className='home-wrapper' id='home'>
 			<div className='home-left'>
-				<h2 className='site-logo'>Adiweb.dev</h2>
+				<p className='site-logo'>Adiweb.dev</p>
 				<div className='title-top'>
 					<h4>
 						Hi , <span style={{ color: "#fca61f" }}>I'm</span>
@@ -50,7 +50,11 @@ const Home = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<SiGmail size={52} color='#fca61f' />
+						<SiGmail
+							size={52}
+							color='#fca61f'
+							className='home-icons'
+						/>
 					</a>
 					<a
 						href='https://www.linkedin.com/in/adi4444/'

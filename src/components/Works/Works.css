@@ -7,9 +7,18 @@
 	border: 1px solid rgb(179, 16, 255);
 	text-align: center;
 }
-.title-div > h2 {
+.title-div > h1 {
 	color: #fca61f;
 }
 .works-list {
 	border: 1px solid rgb(0, 0, 0);
+}
+@media screen and (max-width: 480px) {
+	.works-wrapper {
+		width: 100vw;
+		margin-left: -1.5rem;
+	}
+	.works-list {
+		width: 100vw;
+	}
 }

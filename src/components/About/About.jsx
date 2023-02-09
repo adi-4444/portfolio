@@ -5,7 +5,7 @@ import Resume from "../../assets/doc/Resume.pdf";
 
 const About = () => {
 	return (
-		<div className='about-section'>
+		<div className='about-section' id='about'>
 			<h1 className='title'>About Me</h1>
 			<div className='about-wrapper'>
 				<div className='about-left'>

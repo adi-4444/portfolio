@@ -9,112 +9,112 @@ const Works = () => {
 			name: "JS Calculator",
 			git: "https://github.com/adi-4444/Calculator-JS",
 			site: "https://js-calculator44.netlify.app/",
-			img: "https://iili.io/HE3VEvV.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925423/Portfolio%20Images/cals_js_qlbkak.png",
 		},
 		{
 			id: "2",
 			name: "JS Weather App",
 			git: "https://github.com/adi-4444/Java-Script-Projects/tree/master/JS-Weather-App",
 			site: "https://js-weather-app44.netlify.app/",
-			img: "https://iili.io/HE3VjCg.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925424/Portfolio%20Images/js_weather_y7w3of.png",
 		},
 		{
 			id: "3",
 			name: "JS Number Guess Game",
 			git: "https://github.com/adi-4444/Java-Script-Projects/tree/master/Guess%20No",
 			site: "https://js-no-guess-game.netlify.app/",
-			img: "https://iili.io/HE3VN6J.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925424/Portfolio%20Images/js_Guess_Game_lgdrbj.png",
 		},
 		{
 			id: "4",
 			name: "React Weather App",
 			git: "https://github.com/adi-4444/react-weather-app",
 			site: "https://react-wheather-app44.netlify.app/",
-			img: "https://iili.io/HE3VQa4.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925432/Portfolio%20Images/React_Weather_owywxm.png",
 		},
 		{
 			id: "5",
 			name: "React Todo using ContextAPI",
 			git: "https://github.com/adi-4444/React-ToDo-App",
 			site: "https://react-todo-contextapi44.netlify.app/",
-			img: "https://iili.io/HE3Vgjt.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925424/Portfolio%20Images/Rect_Todo_using_ContextAPI_l081q2.png",
 		},
 		{
 			id: "6",
 			name: "React Crypto Tracker",
 			git: "https://github.com/adi-4444/react-crypto-tracker",
 			site: "https://react-crypto-tracker44.netlify.app",
-			img: "https://iili.io/HE3VGyB.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925423/Portfolio%20Images/crypto_tracker_cx43rh.png",
 		},
 		{
 			id: "7",
 			name: "React Ecommerce category view",
 			git: "https://github.com/adi-4444/React-Ecommerce",
 			site: "https://react-ecomm-categories.netlify.app",
-			img: "https://iili.io/HE3VwGa.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925424/Portfolio%20Images/ecom_categories_alhi6e.png",
 		},
 		{
 			id: "8",
 			name: "React Library Project",
 			git: "https://github.com/adi-4444/React-Library-Project",
 			site: "https://rguktong-library.web.app/",
-			img: "https://iili.io/HE3Ve3v.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925425/Portfolio%20Images/library_cqpm0w.png",
 		},
 		{
 			id: "9",
 			name: "React College Syllabus",
 			git: "https://github.com/adi-4444/React-clg-Syllabus-App",
 			site: "https://rgukt-syllabus.netlify.app",
-			img: "https://iili.io/HE3VLFf.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925429/Portfolio%20Images/Syllabus_oebp6z.png",
 		},
 		{
 			id: "10",
 			name: "React Ecommerce cart & filter",
 			git: "https://github.com/adi-4444/GT-TeeRex",
 			site: "https://gt-tee-rex.vercel.app/",
-			img: "https://iili.io/HE3VWj1.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925424/Portfolio%20Images/ecom_cart_filter_uaqib9.png",
 		},
 		{
 			id: "11",
 			name: "React CRM App",
 			git: "https://github.com/adi-4444/React-CRM-App",
 			site: "https://crm-app-eta.vercel.app/",
-			img: "https://iili.io/HE3V1YQ.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925422/Portfolio%20Images/crm_sdnamx.png",
 		},
 		{
 			id: "12",
 			name: "React Movie Booking App",
 			git: "https://github.com/adi-4444/React-Movie-Booking-App",
 			site: "https://react-movie-booking.netlify.app/",
-			img: "https://iili.io/HE3Vi6G.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925441/Portfolio%20Images/mba_qvfpoy.png",
 		},
 		{
 			id: "13",
 			name: "React Codepen Clone",
 			git: "https://github.com/adi-4444/react-codepen-clone",
 			site: "https://codepen-clone44.netlify.app",
-			img: "https://iili.io/HE3V03x.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925422/Portfolio%20Images/codepen_clone_tvbnac.png",
 		},
 		{
 			id: "14",
 			name: "React Redux Todo",
 			git: "https://github.com/adi-4444/React-Todo-using-Redux",
 			site: "https://react-redux-todo44.netlify.app/",
-			img: "https://iili.io/HEnMybf.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925424/Portfolio%20Images/redux_todo_nznvrp.png",
 		},
 		{
 			id: "15",
 			name: "MERN Notes App",
 			git: "https://github.com/adi-4444/MERN-Notes-App",
 			site: "https://mern-notes-app-w9ko.onrender.com/",
-			img: "https://iili.io/HE3V8yN.png",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925423/Portfolio%20Images/mern_notes_r862ft.png",
 		},
 	];
 
 	return (
-		<div className='works-wrapper'>
+		<div className='works-wrapper' id='works'>
 			<div className='title-div'>
-				<h2>My Recent Projects</h2>
+				<h1>My Recent Projects</h1>
 			</div>
 			<div className='works-list'>
 				<Work data={data} />

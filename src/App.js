@@ -8,6 +8,7 @@ import MySkills from './components/MySkills/MySkills';
 import Works from './components/Works/Works';
 
 function App() {
+
   useEffect(() => {
     const handleContextMenu = (event) => {
       event.preventDefault();

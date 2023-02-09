@@ -2,16 +2,30 @@
 	border: 1px solid blue;
 	margin-top: 4rem;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
 	padding: 1rem;
 	-webkit-user-select: none;
 	user-select: none;
+}
+.myskills-wrapper > h1 {
+	color: var(--orange);
+	text-align: center;
+	font-weight: 700;
+}
+.myskills-content {
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	margin-top: 1rem;
+	position: relative;
 }
 .vector2 {
 	border: 1px solid darkgreen;
 	flex: 1;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	position: relative;
 }
 .animblob {
@@ -24,23 +38,10 @@
 .skills {
 	border: 1px solid darkmagenta;
 	flex: 1;
+	width: 50%;
 	position: relative;
-	/* display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center; */
 }
-.skills-title {
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 8rem;
-	left: 14.7rem;
-	z-index: 10;
-	font-size: 3.5rem;
-}
+
 .blur3 {
 	background: #abf1ff94;
 	position: absolute;
@@ -120,20 +121,58 @@
 	bottom: -0.6rem;
 	left: -0.3rem;
 }
+.skills-circle > :nth-child(12) {
+	font-size: 3.5rem;
+	top: 1rem;
+	left: 1.7rem;
+}
 .skills-bg {
 	position: absolute;
 	width: 10rem;
 	height: 10rem;
 	border-radius: 100%;
 	z-index: -1;
-	left: 18rem;
-	filter: blur(20px);
+	left: 6rem;
+	filter: blur(50px);
 }
 .blue-circle {
 	background: #19b83c;
-	top: 8rem;
+	top: -2rem;
 }
 .yellow-circle {
 	background: #f5c32c;
-	top: 5rem;
+	top: 2rem;
+}
+@media screen and (max-width: 480px) {
+	.myskills-wrapper {
+		margin-top: 16rem;
+	}
+	.myskills-wrapper > h1 {
+		margin-left: 3rem;
+	}
+	.myskills-content {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+	.skills-circle {
+		left: -1rem;
+		top: 2rem;
+	}
+	.vector2 {
+		margin-top: 4.5rem;
+		transform: scale(0.75);
+		margin-left: 2rem;
+	}
+	.blur3 {
+		filter: blur(100px);
+		left: -7rem;
+		bottom: -11rem;
+	}
+	.animblob {
+		top: -2rem;
+		left: -5rem;
+		height: 35rem;
+	}
 }

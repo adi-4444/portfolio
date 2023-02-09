@@ -84,3 +84,23 @@
 	filter: blur(150px);
 	z-index: -9;
 }
+@media screen and (max-width: 480px) {
+	.contact-wrapper {
+		margin-top: 3rem;
+		width: 100vw;
+		margin-left: -1.3rem;
+	}
+	.contact-wrapper > h1 {
+		margin-top: 1rem;
+	}
+	.contact-content {
+		flex-direction: column;
+	}
+	.contact-left {
+		margin-top: 0rem;
+	}
+	.contact-left > p {
+		font-weight: 700;
+		padding: 10px;
+	}
+}

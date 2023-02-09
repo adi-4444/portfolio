@@ -3,7 +3,7 @@ import "./GetInTouch.css";
 
 const GetInTouch = () => {
 	return (
-		<div className='contact-wrapper'>
+		<div className='contact-wrapper' id='getintouch'>
 			<h1>Get in Touch</h1>
 			<div className='contact-content'>
 				<div className='contact-left'>

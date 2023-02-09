@@ -1,4 +1,8 @@
 .about-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	border: 1px solid rgb(4, 0, 255);
 	padding: 1rem;
 	-webkit-user-select: none;
@@ -49,4 +53,28 @@
 }
 .lottie-image {
 	height: 450px;
+}
+@media screen and (max-width: 480px) {
+	.about-section {
+		width: 100vw;
+		padding: 0rem;
+		margin-left: -2rem;
+	}
+	.about-wrapper {
+		flex-direction: column;
+		padding: 0.5rem;
+		margin-left: 1.3rem;
+	}
+	.lottie-image {
+		height: 300px;
+	}
+	.about-discription {
+		font-weight: 500;
+		font-size: larger;
+		padding: 0.2rem;
+		width: 100vw;
+	}
+	.resume-btn {
+		margin-bottom: 1rem;
+	}
 }

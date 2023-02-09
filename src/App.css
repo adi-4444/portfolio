@@ -18,3 +18,8 @@ body {
 	-webkit-user-select: none;
 	user-select: none;
 }
+@media screen and (max-width: 480px) {
+	.app-container {
+		padding: 0.5rem 1rem;
+	}
+}

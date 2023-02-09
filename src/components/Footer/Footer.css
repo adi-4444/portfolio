@@ -24,3 +24,41 @@
 	position: absolute;
 	bottom: -3.5rem;
 }
+.topbtn {
+	font-size: 2.4rem;
+	width: 4rem;
+	height: 4rem;
+	color: #fff;
+	background-color: rgb(92, 92, 221);
+	-webkit-box-shadow: 10px 24px 85px -27px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 24px 85px -27px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 24px 85px -27px rgba(0, 0, 0, 0.75);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	z-index: 99;
+	cursor: pointer;
+}
+.totop--icon {
+	animation: gototop 1.2s linear infinite alternate-reverse;
+}
+@keyframes gototop {
+	0% {
+		transform: translateY(-0.5rem);
+	}
+	100% {
+		transform: scaleY(1rem);
+	}
+}
+@media screen and (max-width: 480px) {
+	.footer-wrapper {
+		width: 90vw;
+	}
+	.footer-content {
+		margin-bottom: 2rem;
+	}
+}

@@ -5,6 +5,9 @@
 }
 .image-div {
 	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .vector {
 	position: relative;
@@ -69,4 +72,34 @@
 	z-index: -9;
 	left: -17rem;
 	bottom: -3rem;
+}
+@media screen and (max-width: 480px) {
+	.image-div {
+		transform: scale(0.65);
+		top: -2rem;
+	}
+	.crown {
+		top: 1rem;
+		right: -3rem;
+	}
+	.glassimoji {
+		top: 5rem;
+		left: -5rem;
+	}
+	.blur1 {
+		position: absolute;
+		filter: blur(220px);
+		height: 14rem;
+		width: 22rem;
+		top: -20rem;
+		right: -10rem;
+	}
+	.blur2 {
+		position: absolute;
+		height: 15rem;
+		width: 25rem;
+		filter: blur(220px);
+		left: -8rem;
+		bottom: -8rem;
+	}
 }
