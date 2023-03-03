@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import developer from "../../assets/images/developer.gif";
-// import Resume from "../../assets/doc/Resume.pdf";
 
 const About = () => {
 	return (
