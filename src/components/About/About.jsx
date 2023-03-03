@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import developer from "../../assets/images/developer.gif";
-import Resume from "../../assets/doc/Resume.pdf";
+// import Resume from "../../assets/doc/Resume.pdf";
 
 const About = () => {
 	return (
@@ -23,7 +23,12 @@ const About = () => {
 						you're looking for a dedicated and skilled React
 						developer, I would love to hear from you.
 					</p>
-					<a href={Resume} download='Adi Resume'>
+					<a
+						href='https://drive.google.com/drive/folders/1aglzO7nh89nhBhmDwyCShDXNiALbge0w?usp=share_link'
+						download='Adi Resume'
+						target='_blank'
+						rel='noreferrer'
+					>
 						<button className='resume-btn'>Resume</button>
 					</a>
 				</div>
