@@ -33,6 +33,13 @@ const Works = () => {
 			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1675925432/Portfolio%20Images/React_Weather_owywxm.png",
 		},
 		{
+			id: "16",
+			name: "React Tic Tac Toe",
+			git: "https://github.com/adi-4444/react-tictactoe",
+			site: "https://react-tictactoe44.netlify.app/",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1678909126/Portfolio%20Images/Screenshot_2023-03-16_at_1.00.27_AM_xvd95y.png",
+		},
+		{
 			id: "5",
 			name: "React Todo using ContextAPI",
 			git: "https://github.com/adi-4444/React-ToDo-App",
