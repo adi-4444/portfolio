@@ -1,8 +1,3 @@
-.right-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 .image-div {
 	position: relative;
 	display: flex;
@@ -18,13 +13,13 @@
 .blob1 {
 	position: absolute;
 	z-index: 1;
-	transform: scale(1);
+	transform: scale(0.95);
 	left: 1%;
 	top: 5%;
 }
 .blob2 {
 	position: absolute;
-	transform: scale(0.8);
+	transform: scale(0.75);
 	left: -23%;
 	top: -5%;
 }
@@ -73,17 +68,18 @@
 	left: -17rem;
 	bottom: -3rem;
 }
+
 @media screen and (max-width: 480px) {
 	.image-div {
-		transform: scale(0.65);
-		top: -2rem;
+		transform: scale(0.7);
+		top: -1rem;
 	}
 	.crown {
 		top: 1rem;
-		right: -7rem;
+		right: -3rem;
 	}
 	.glassimoji {
-		top: 5rem;
+		top: 4rem;
 		left: -5rem;
 	}
 	.blur1 {

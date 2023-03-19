@@ -9,17 +9,11 @@
 	--orangeCard: rgba(252, 166, 31, 0.45);
 	--smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
-body {
-	background-color: #f5f5fa;
-	color: #0f0c0c;
-	padding: 2rem;
-}
-.app-container {
-	-webkit-user-select: none;
-	user-select: none;
-}
-@media screen and (max-width: 480px) {
-	.app-container {
-		padding: 0.5rem 1rem;
-	}
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }

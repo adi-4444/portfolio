@@ -1,6 +1,6 @@
 import React from "react";
 import Work from "./Work";
-import "./Works.css";
+import "./works.css";
 
 const Works = () => {
 	const data = [
@@ -125,7 +125,7 @@ const Works = () => {
 	return (
 		<div className='works-wrapper' id='works'>
 			<div className='title-div'>
-				<h1>My Recent Projects</h1>
+				<h1>My Recent Works</h1>
 			</div>
 			<div className='works-list'>
 				<Work data={data} />

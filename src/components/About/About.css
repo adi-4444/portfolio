@@ -6,6 +6,7 @@
 	padding: 1rem;
 	-webkit-user-select: none;
 	user-select: none;
+	width: 100%;
 }
 .title {
 	text-align: center;
@@ -18,6 +19,7 @@
 	padding: 2rem;
 	border-radius: 10px;
 	box-shadow: 12px 17px 21px -3px rgba(0, 0, 0, 0.2);
+	width: 100%;
 }
 .about-left {
 	flex: 1;
@@ -37,6 +39,7 @@
 	padding: 6px 14px;
 	border: none;
 	cursor: pointer;
+	margin-top: 10px;
 	border-radius: 10px;
 	font-weight: 600;
 	box-shadow: 3px 14px 30px 0px rgba(0, 0, 0, 0.3);
@@ -52,14 +55,17 @@
 }
 @media screen and (max-width: 480px) {
 	.about-section {
-		width: 100vw;
+		width: 100%;
 		padding: 0rem;
-		margin-left: -1rem;
 	}
 	.about-wrapper {
 		flex-direction: column;
-		padding: 0.5rem;
-		margin-left: 1.3rem;
+		align-items: center;
+		justify-content: center;
+		text-align: justify;
+		word-spacing: -1px;
+		padding: 1rem;
+		margin: 1rem;
 	}
 	.lottie-image {
 		height: 300px;
@@ -68,7 +74,7 @@
 		font-weight: 500;
 		font-size: larger;
 		padding: 0.2rem;
-		width: 100vw;
+		width: 100%;
 	}
 	.resume-btn {
 		margin-bottom: 3rem;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Footer.css";
+import "./footer.css";
 import wave from "../../assets/images/wave.svg";
 import { SiWhatsapp } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";

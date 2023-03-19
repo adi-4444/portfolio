@@ -1,5 +1,5 @@
 import React from "react";
-import "./GetInTouch.css";
+import "./getintouch.css";
 
 const GetInTouch = () => {
 	return (

@@ -1,21 +1,29 @@
 import React from "react";
-import "./Home.css";
+import "./home.css";
 import Typewriter from "typewriter-effect";
-import Right from "./Right/Right";
 import git from "../../assets/images/github.png";
 import { SiGmail } from "react-icons/si";
 import linked from "../../assets/images/linkedin.png";
+import Right from "./Right/Right";
 
 const Home = () => {
 	return (
-		<div className='home-wrapper' id='home'>
+		<div className='Home'>
 			<div className='home-left'>
 				<p className='site-logo'>Adiweb.dev</p>
+
 				<div className='title-top'>
 					<h4>
-						Hi , <span style={{ color: "#fca61f" }}>I'm</span>
+						Hi ,{" "}
+						<img
+							src='https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif'
+							width='35px'
+							alt='hand'
+						></img>
+						<span style={{ color: "#fca61f" }}> I'm</span>
 					</h4>
 				</div>
+
 				<div className='typewrite-text'>
 					<Typewriter
 						options={{ autoStart: true, loop: true, delay: 75 }}
@@ -34,9 +42,11 @@ const Home = () => {
 						}}
 					/>
 				</div>
+
 				<div className='btn-div'>
 					<button className='connect-btn'>Connect</button>
 				</div>
+
 				<div className='connect-links'>
 					<a
 						href='https://github.com/adi-4444'

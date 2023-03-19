@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./about.css";
 import developer from "../../assets/images/developer.gif";
 
 const About = () => {

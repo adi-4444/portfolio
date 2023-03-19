@@ -1,5 +1,5 @@
 import React from "react";
-import "./Work.css";
+import "./work.css";
 import { SiGithub } from "react-icons/si";
 
 const Work = ({ data }) => {

@@ -1,20 +1,23 @@
 .works-wrapper {
 	-webkit-user-select: none;
 	user-select: none;
+	padding: 2rem;
 }
 .title-div {
 	text-align: center;
 }
 .title-div > h1 {
 	color: #fca61f;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 480px) {
 	.works-wrapper {
-		width: 100vw;
-		margin-left: -0.5rem;
+		padding: 0.5rem;
+		width: 100%;
 	}
 	.works-list {
-		width: 100vw;
+		width: 100%;
 	}
 }

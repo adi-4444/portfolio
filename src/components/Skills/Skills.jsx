@@ -1,5 +1,5 @@
 import React from "react";
-import "./MySkills.css";
+import "./skills.css";
 import vector2 from "../../assets/images/img2.png";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
@@ -9,15 +9,16 @@ import { SiRedux } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { SiSass } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
-import { SiMaterialui } from "react-icons/si";
+import { SiMui } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import blob1 from "../../assets/images/blob1.svg";
 
-const MySkills = () => {
+const Skills = () => {
 	return (
 		<div className='myskills-wrapper' id='myskills'>
 			<h1>My Skills</h1>
+
 			<div className='myskills-content'>
 				<div className='vector2'>
 					<img src={vector2} alt='img2' height={400} />
@@ -32,7 +33,7 @@ const MySkills = () => {
 						<div className='html secCircle'>
 							<ImHtmlFive size={40} color='#E14E1D' />
 						</div>
-						<div className='css secCircle'>
+						<div className='css secCircle '>
 							<SiCss3 size={40} color='#0277BD' />
 						</div>
 						<div className='js secCircle'>
@@ -54,7 +55,7 @@ const MySkills = () => {
 							<SiTailwindcss size={40} color='#38BDF8' />
 						</div>
 						<div className='mui secCircle'>
-							<SiMaterialui size={40} color='#00A7F2' />
+							<SiMui size={40} color='#00A7F2' />
 						</div>
 						<div className='git secCircle'>
 							<FaGitAlt size={40} color='#F03C2E' />
@@ -77,4 +78,4 @@ const MySkills = () => {
 	);
 };
 
-export default MySkills;
+export default Skills;
