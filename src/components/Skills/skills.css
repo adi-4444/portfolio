@@ -75,53 +75,120 @@
 .skills-circle > * {
 	position: absolute;
 }
+
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg) translate(130px);
+	}
+	to {
+		transform: rotate(360deg) translate(130px);
+	}
+}
+.anim {
+	animation: spinAround 11s linear infinite;
+}
 .skills-circle > :nth-child(1) {
-	top: -2rem;
+	/* top: -2rem;
+	left: 5rem; */
+	top: 4.5rem;
 	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -1s;
 }
 .skills-circle > :nth-child(2) {
-	top: -1rem;
-	right: 0.1rem;
+	/* top: -1rem;
+	right: 0.1rem; */
+	top: 4.5rem;
+	right: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -2s;
 }
 .skills-circle > :nth-child(3) {
-	top: -1rem;
-	left: 0.1rem;
+	/* top: -1rem;
+	left: 0.1rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -3s;
 }
 .skills-circle > :nth-child(4) {
-	top: 2.5rem;
-	left: -2rem;
+	/* top: 2.5rem;
+	left: -2rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -4s;
 }
 .skills-circle > :nth-child(5) {
-	bottom: 3rem;
-	left: -2rem;
+	/* bottom: 3rem;
+	left: -2rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -5s;
 }
 .skills-circle > :nth-child(6) {
-	top: 2.5rem;
-	right: -2.2rem;
+	/* top: 2.5rem;
+	right: -2.2rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -6s;
 }
 .skills-circle > :nth-child(7) {
-	bottom: 3rem;
-	right: -2rem;
+	/* bottom: 3rem;
+	right: -2rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -7s;
 }
 .skills-circle > :nth-child(8) {
-	bottom: -2.2rem;
-	right: 2.2rem;
+	/* bottom: -2.2rem;
+	right: 2.2rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -8s;
 }
 .skills-circle > :nth-child(9) {
-	bottom: -0.3rem;
-	right: -0.7rem;
+	/* bottom: -0.3rem;
+	right: -0.7rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -9s;
 }
 .skills-circle > :nth-child(10) {
-	bottom: -2.3rem;
-	left: 3.3rem;
+	/* bottom: -2.3rem;
+	left: 3.3rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -10s;
 }
 .skills-circle > :nth-child(11) {
-	bottom: -0.6rem;
-	left: -0.3rem;
+	/* bottom: -0.6rem;
+	left: -0.3rem; */
+	top: 4.5rem;
+	left: 5rem;
+	right: 5rem;
+	bottom: 5rem;
+	animation-delay: -11s;
 }
 .skills-circle > :nth-child(12) {
 	font-size: 3.5rem;
-	top: 3.6rem;
+	top: 4rem;
 	left: 1.7rem;
 }
 .skills-bg {
@@ -159,6 +226,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 2rem;
+		margin-top: 1rem;
 	}
 	.skills-circle {
 		left: -0.5rem;

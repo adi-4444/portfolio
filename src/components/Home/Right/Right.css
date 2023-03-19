@@ -38,6 +38,15 @@
 	right: -6rem;
 	box-shadow: var(--boxShadow);
 	z-index: 9;
+	animation: cloudFloatCrown 1.2s linear infinite alternate-reverse;
+}
+@keyframes cloudFloatCrown {
+	0% {
+		transform: translateX(-0.8rem);
+	}
+	100% {
+		transform: scaleY(1rem);
+	}
 }
 .glassimoji {
 	position: absolute;
@@ -45,6 +54,15 @@
 	left: -12rem;
 	box-sizing: var(--boxShadow);
 	z-index: 9;
+	animation: cloudFloat 1.2s linear infinite alternate-reverse;
+}
+@keyframes cloudFloat {
+	0% {
+		transform: translateY(-0.8rem);
+	}
+	100% {
+		transform: scaleY(1rem);
+	}
 }
 .blur1 {
 	background: #d6acf1;
@@ -80,7 +98,7 @@
 	}
 	.glassimoji {
 		top: 4rem;
-		left: -5rem;
+		left: -4rem;
 	}
 	.blur1 {
 		position: absolute;

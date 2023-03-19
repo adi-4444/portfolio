@@ -11,9 +11,6 @@
 	-webkit-user-select: none;
 	user-select: none;
 }
-.projects-wrapper::-webkit-scrollbar {
-	display: none;
-}
 .project {
 	position: relative;
 	transition: all 0.3s ease;
