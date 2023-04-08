@@ -5,6 +5,13 @@ import "./works.css";
 const Works = () => {
 	const data = [
 		{
+			id: "17",
+			name: "React Spotify Clone",
+			git: "https://github.com/adi-4444/spotify-clone",
+			site: "https://spotify-clone-44.netlify.app/",
+			img: "https://res.cloudinary.com/dzmiwefgs/image/upload/v1680970542/Github%20Pics/Spotify-Clone_i8poef.jpg",
+		},
+		{
 			id: "11",
 			name: "React CRM App",
 			git: "https://github.com/adi-4444/React-CRM-App",
