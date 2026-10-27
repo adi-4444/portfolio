@@ -1,46 +1,55 @@
-import React from "react";
-import "./about.css";
-import developer from "../../assets/images/developer.gif";
+import { FiArrowUpRight } from 'react-icons/fi';
+import SystemDiagram from './SystemDiagram';
 
-const About = () => {
-	return (
-		<div className='about-section' id='about'>
-			<h1 className='title'>About Me</h1>
-			<div className='about-wrapper'>
-				<div className='about-left'>
-					<p className='about-discription'>
-						I am a passionate front-end developer with a focus on
-						building beautiful and intuitive web applications. My
-						expertise lies in React, HTML, CSS, and JavaScript, and
-						I have honed these skills through building several
-						personal projects and completing a front-end development
-						course. I am constantly exploring new ways to push the
-						limits of what is possible in web development.I have a
-						keen eye for detail and a focus on delivering
-						high-quality solutions and I am always looking for new
-						challenges and opportunities to grow as a developer. If
-						you're looking for a dedicated and skilled React
-						developer, I would love to hear from you.
-					</p>
-					<a
-						href='https://drive.google.com/drive/folders/1aglzO7nh89nhBhmDwyCShDXNiALbge0w?usp=share_link'
-						download='Adi Resume'
-						target='_blank'
-						rel='noreferrer'
-					>
-						<button className='resume-btn'>Resume</button>
-					</a>
-				</div>
-				<div className='about-right'>
-					<img
-						src={developer}
-						alt='lottie'
-						className='lottie-image'
-					/>
-				</div>
-			</div>
-		</div>
-	);
-};
-
-export default About;
+export default function About() {
+  return (
+    <section
+      className="about-section section-pad container"
+      id="about"
+      aria-labelledby="about-title"
+    >
+      <div className="section-heading">
+        <div>
+          <p className="eyebrow">
+            <span>06 /</span> A LITTLE ABOUT ME
+          </p>
+          <h2 id="about-title">I work across the whole product.</h2>
+        </div>
+      </div>
+      <div className="about-grid">
+        <div className="about-copy">
+          <p className="about-lead">
+            I like taking a business problem and turning it into software people
+            can actually use.
+          </p>
+          <p>
+            Sometimes that’s a mobile app. Sometimes it’s an internal tool, a
+            custom trading terminal, an API, or a background service. Often,
+            it’s a few of those working together.
+          </p>
+          <p>
+            Since 2023, I’ve worked across real estate technology, workspace
+            operations, and financial software. I’m comfortable moving between
+            the interface, the data model, and the server when the work needs
+            it.
+          </p>
+          <p>
+            I care about understandable code, clear product decisions, and
+            seeing a feature through to the system it runs on. I also use AI
+            tools as part of that process, with the same expectation of review
+            and verification.
+          </p>
+          <a
+            className="text-link resume-link"
+            href="https://drive.google.com/drive/folders/1aglzO7nh89nhBhmDwyCShDXNiALbge0w?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View my résumé <FiArrowUpRight aria-hidden="true" />
+          </a>
+        </div>
+        <SystemDiagram />
+      </div>
+    </section>
+  );
+}

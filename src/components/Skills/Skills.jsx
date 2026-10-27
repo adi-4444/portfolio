@@ -1,81 +1,47 @@
-import React from "react";
-import "./skills.css";
-import vector2 from "../../assets/images/img2.png";
-import { ImHtmlFive } from "react-icons/im";
-import { SiCss3 } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiReact } from "react-icons/si";
-import { SiRedux } from "react-icons/si";
-import { SiBootstrap } from "react-icons/si";
-import { SiSass } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiMui } from "react-icons/si";
-import { SiGithub } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-import blob1 from "../../assets/images/blob1.svg";
+import { skillGroups } from '../../data/profile';
 
-const Skills = () => {
-	return (
-		<div className='myskills-wrapper' id='myskills'>
-			<h1>My Skills</h1>
-
-			<div className='myskills-content'>
-				<div className='vector2'>
-					<img src={vector2} alt='img2' height={400} />
-					<div className='blur3'></div>
-					<img src={blob1} alt='blob1' className='animblob' />
-				</div>
-
-				<div className='skills'>
-					<div className='blur4'></div>
-
-					<div className='skills-circle'>
-						<div className='html secCircle anim'>
-							<ImHtmlFive size={40} color='#E14E1D' />
-						</div>
-						<div className='css secCircle anim'>
-							<SiCss3 size={40} color='#0277BD' />
-						</div>
-						<div className='js secCircle anim'>
-							<SiJavascript size={40} color='#F0DB4F' />
-						</div>
-						<div className='react secCircle anim'>
-							<SiReact size={40} color='#00CDF2' />
-						</div>
-						<div className='redux secCircle anim'>
-							<SiRedux size={40} color='#7046B2' />
-						</div>
-						<div className='bootstrap secCircle anim'>
-							<SiBootstrap size={40} color='#7311EC' />
-						</div>
-						<div className='sass secCircle anim'>
-							<SiSass size={40} color='#CA689B' />
-						</div>
-						<div className='tailwind secCircle anim'>
-							<SiTailwindcss size={40} color='#38BDF8' />
-						</div>
-						<div className='mui secCircle anim'>
-							<SiMui size={40} color='#00A7F2' />
-						</div>
-						<div className='git secCircle anim'>
-							<FaGitAlt size={40} color='#F03C2E' />
-						</div>
-						<div className='github secCircle anim'>
-							<SiGithub size={40} color='#242938' />
-						</div>
-						<h2
-							className='skills-title'
-							style={{ color: "#fca61f" }}
-						>
-							Skills
-						</h2>
-						<div className='skills-bg blue-circle'></div>
-						<div className='skills-bg yellow-circle'></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
-};
-
-export default Skills;
+export default function Skills() {
+  return (
+    <section
+      className="toolbox-section section-pad"
+      id="myskills"
+      aria-labelledby="toolbox-title"
+    >
+      <div className="container">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">
+              <span>03 /</span> TECHNICAL TOOLKIT
+            </p>
+            <h2 id="toolbox-title">Tools I’ve put to work.</h2>
+          </div>
+          <p className="section-summary">
+            Across web, mobile, services, and infrastructure.
+            <br />
+            The stack changes. The engineering carries over.
+          </p>
+        </div>
+        <div className="skill-table">
+          {skillGroups.map((group, index) => (
+            <div className="skill-row" key={group.name}>
+              <span className="skill-index">0{index + 1}</span>
+              <div className="skill-category">
+                <h3>{group.name}</h3>
+                <p>{group.note}</p>
+              </div>
+              <ul className="skill-tags">
+                {group.skills.map((skill) => (
+                  <li key={skill}>{skill}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        <p className="toolkit-note">
+          <span aria-hidden="true">↳</span> A working toolkit from the
+          applications and services I’ve built.
+        </p>
+      </div>
+    </section>
+  );
+}

@@ -1,71 +1,70 @@
-import React from "react";
-import "./getintouch.css";
+import { useState } from 'react';
+import { FiArrowUpRight, FiCheck, FiCopy } from 'react-icons/fi';
+import { email } from '../../data/profile';
 
-const GetInTouch = () => {
-	return (
-		<div className='contact-wrapper' id='getintouch'>
-			<h1>Get in Touch</h1>
-			<div className='contact-content'>
-				<div className='contact-left'>
-					<h4>Connect with me !</h4>
-					<p>
-						I would love to hear from you! If you have any questions
-						or projects you'd like to discuss, feel free to reach
-						out to me.
-					</p>
-					<div className='blur5'></div>
-				</div>
-				<div className='contact-form-div'>
-					<form
-						className='contact-form'
-						action='https://formsubmit.co/3745203b2d86f0559b6e5dbe85bb0acf'
-						method='POST'
-					>
-						<input
-							type='hidden'
-							name='_blacklist'
-							value='spammy pattern, banned term, phrase'
-						/>
-						<input type='hidden' name='_template' value='table' />
-						<input
-							type='text'
-							name='name'
-							className='input username'
-							placeholder='Name'
-							autoComplete='off'
-							required
-						/>
-						<input
-							type='email'
-							name='email'
-							className='input useremail'
-							placeholder='Email'
-							autoComplete='off'
-							required
-						/>
-						<input
-							type='hidden'
-							name='_autoresponse'
-							value='Hey, Thanks for contacting me , Will be responded Soon.'
-						/>
-						<textarea
-							name='message'
-							className='input message'
-							placeholder='Message'
-							autoComplete='off'
-							required
-						/>
-						<input
-							type='submit'
-							value='Send'
-							className='submit-btn'
-						/>
-					</form>
-					<div className='blur6'></div>
-				</div>
-			</div>
-		</div>
-	);
-};
-
-export default GetInTouch;
+export default function GetInTouch() {
+  const [copyStatus, setCopyStatus] = useState('');
+  async function copyEmail() {
+    try {
+      await navigator.clipboard.writeText(email);
+      setCopyStatus('Email address copied.');
+    } catch {
+      setCopyStatus(
+        'Couldn’t copy automatically. You can select the email address above.',
+      );
+    }
+  }
+  return (
+    <section
+      className="contact-section container"
+      id="getintouch"
+      aria-labelledby="contact-title"
+    >
+      <div className="contact-card">
+        <div className="contact-topline">
+          <p className="eyebrow">
+            <span>07 /</span> HAVE SOMETHING IN MIND?
+          </p>
+          <span className="contact-mark" aria-hidden="true">
+            {'{ / }'}
+          </span>
+        </div>
+        <h2 id="contact-title">
+          An idea, a product,
+          <br />
+          <span>or a system that needs building.</span>
+        </h2>
+        <div className="contact-bottom">
+          <div>
+            <p>
+              Web applications, mobile apps, internal platforms,
+              <br />
+              backend services, and AI-enabled workflows. Let’s talk.
+            </p>
+            <a className="contact-email" href={`mailto:${email}`}>
+              {email} <FiArrowUpRight aria-hidden="true" />
+            </a>
+          </div>
+          <div className="contact-actions">
+            <a className="button button-light" href={`mailto:${email}`}>
+              Start a conversation <FiArrowUpRight aria-hidden="true" />
+            </a>
+            <button className="copy-button" onClick={copyEmail}>
+              {copyStatus === 'Email address copied.' ? (
+                <FiCheck aria-hidden="true" />
+              ) : (
+                <FiCopy aria-hidden="true" />
+              )}
+              {copyStatus === 'Email address copied.'
+                ? 'Email copied'
+                : 'Copy email address'}
+            </button>
+          </div>
+        </div>
+        <p className="copy-status" role="status">
+          {copyStatus}
+        </p>
+      </div>
+    </section>
+  );
+}

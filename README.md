@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Adi Narayana Reddy — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive Software Developer portfolio built with React 19, Vite 8, plain CSS, and React Icons. The design uses native system typography and light/dark themes, an experience-first layout, a compact early-project archive, and an interactive portfolio terminal.
 
-## Available Scripts
+## Development
 
-In the project directory, you can run:
+```sh
+npm ci
+npm run dev
+```
 
-### `npm start`
+`npm start` is also available as an alias. The development server opens at `http://localhost:5173`. If that port is occupied, Vite prints the next available port in the terminal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Production
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```sh
+npm run build
+```
 
-### `npm test`
+Deploy the generated `dist/` directory to a static host. Preview the production build locally with `npm run preview`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For a subdirectory deployment, build with a matching base path, for example `npm run build -- --base=/portfolio/`.
 
-### `npm run build`
+Use Node.js 20.19+ or 22.12+ (Node.js 24 is supported).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Cloudflare Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Use the repository root and these build settings:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Setting | Value |
+| --- | --- |
+| Production branch | `master` |
+| Framework preset | React (Vite) |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Root directory | Leave blank (repository root) |
 
-### `npm run eject`
+Node.js 22.23.4 and npm 10.9.9 are compatible with this project. After pushing a change, deploy the latest commit rather than retrying an older Create React App deployment. The build log should run `vite build`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+See [Cloudflare’s build configuration documentation](https://developers.cloudflare.com/pages/configuration/build-configuration/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Updating content
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Edit `src/data/profile.js` to update experience, technical skills, AI tools, terminal responses, and the contact email.
+- Edit `src/data/projects.json` to change project titles, descriptions, technology tags, categories, and links. The first four projects are featured by default.
+- Put project screenshots in `public/projects/` and reference their paths in the project data. Images are optimized WebP files and load lazily.
+- Edit the components in `src/components/` for the introduction, biography, toolkit, résumé, social links, and contact address.
+- Update the page title and social metadata in `index.html`.
+- Visual tokens and typography live in `src/index.css`; layouts and responsive styles live in `src/App.css`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contact links open the visitor’s email app. The copy action uses the Clipboard API, with feedback when clipboard access is unavailable. No contact form service or backend is required.
 
-## Learn More
+The page includes keyboard focus styles, a skip link, a collapsible mobile navigation, project filters, and reduced-motion support. Typography uses the operating system’s native sans-serif fonts and Menlo/SF Mono for the terminal. Light mode is the default; the theme toggle remembers an explicit choice in local storage.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The macOS zsh-style terminal starts with a prompt. Type `select` to open a bullet menu, use arrow keys and Enter to select a section, or enter `about`, `experience`, `stack`, `ai`, `projects`, or `contact` directly. Slash-prefixed forms such as `/about` and `/experience` work too, including Tab completion. The prompt uses `adi@macbook`. Responses stream into the terminal; reduced-motion mode shows them immediately.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use Backspace on an empty prompt, Escape, or the back button to return to the main menu. The terminal also supports `whoami`, `help`, `clear`, `back`, shell command history outside the menu, Tab completion, Ctrl+C to interrupt streaming, and Cmd/Ctrl+K to focus the prompt. It is a local portfolio interface, not a connection to the host’s shell.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Experience entries include expandable responsibility details. The approach section is separate from a compact AI capability and four-tool strip.

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "17",
+    "name": "Spotify Clone",
+    "description": "A familiar music experience, rebuilt with React.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript", "CSS"],
+    "tone": "sage",
+    "source": "https://github.com/adi-4444/spotify-clone",
+    "demo": "https://spotify-clone-44.netlify.app/",
+    "image": "/projects/17.webp"
+  },
+  {
+    "id": "11",
+    "name": "CRM Dashboard",
+    "description": "A focused interface for managing customer relationships.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript", "CSS"],
+    "tone": "lavender",
+    "source": "https://github.com/adi-4444/React-CRM-App",
+    "demo": "https://crm-app-eta.vercel.app/",
+    "image": "/projects/11.webp"
+  },
+  {
+    "id": "15",
+    "name": "MERN Notes",
+    "description": "A full-stack space to capture and organize your notes.",
+    "category": "Web apps",
+    "tags": ["MongoDB", "Express", "React", "Node.js"],
+    "tone": "peach",
+    "source": "https://github.com/adi-4444/MERN-Notes-App",
+    "demo": "https://mern-notes-app-w9ko.onrender.com/",
+    "image": "/projects/15.webp"
+  },
+  {
+    "id": "13",
+    "name": "CodePen Clone",
+    "description": "A browser-based playground for HTML, CSS, and JavaScript.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript", "CSS"],
+    "tone": "sand",
+    "source": "https://github.com/adi-4444/react-codepen-clone",
+    "demo": "https://codepen-clone44.netlify.app",
+    "image": "/projects/13.webp"
+  },
+  {
+    "id": "12",
+    "name": "Movie Booking",
+    "description": "A React take on the movie discovery and booking experience.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript", "CSS"],
+    "tone": "peach",
+    "source": "https://github.com/adi-4444/React-Movie-Booking-App",
+    "demo": "https://react-movie-booking.netlify.app/",
+    "image": "/projects/12.webp"
+  },
+  {
+    "id": "4",
+    "name": "Weather App",
+    "description": "A simple interface for looking up the weather.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript", "API"],
+    "tone": "sage",
+    "source": "https://github.com/adi-4444/react-weather-app",
+    "demo": "https://react-wheather-app44.netlify.app/",
+    "image": "/projects/4.webp"
+  },
+  {
+    "id": "16",
+    "name": "Tic Tac Toe",
+    "description": "A classic game with a clean, interactive React interface.",
+    "category": "Experiments",
+    "tags": ["React", "JavaScript"],
+    "tone": "lavender",
+    "source": "https://github.com/adi-4444/react-tictactoe",
+    "demo": "https://react-tictactoe44.netlify.app/",
+    "image": "/projects/16.webp"
+  },
+  {
+    "id": "5",
+    "name": "Context Todo",
+    "description": "Everyday task management using React Context.",
+    "category": "Experiments",
+    "tags": ["React", "Context API"],
+    "tone": "sand",
+    "source": "https://github.com/adi-4444/React-ToDo-App",
+    "demo": "https://react-todo-contextapi44.netlify.app/",
+    "image": "/projects/5.webp"
+  },
+  {
+    "id": "6",
+    "name": "Crypto Tracker",
+    "description": "An interface for exploring cryptocurrency market data.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript", "API"],
+    "tone": "sage",
+    "source": "https://github.com/adi-4444/react-crypto-tracker",
+    "demo": "https://react-crypto-tracker44.netlify.app",
+    "image": "/projects/6.webp"
+  },
+  {
+    "id": "14",
+    "name": "Redux Todo",
+    "description": "A small task app exploring predictable state management.",
+    "category": "Experiments",
+    "tags": ["React", "Redux"],
+    "tone": "peach",
+    "source": "https://github.com/adi-4444/React-Todo-using-Redux",
+    "demo": "https://react-redux-todo44.netlify.app/",
+    "image": "/projects/14.webp"
+  },
+  {
+    "id": "1",
+    "name": "JavaScript Calculator",
+    "description": "A compact calculator built with the web fundamentals.",
+    "category": "Experiments",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "tone": "sand",
+    "source": "https://github.com/adi-4444/Calculator-JS",
+    "demo": "https://js-calculator44.netlify.app/",
+    "image": "/projects/1.webp"
+  },
+  {
+    "id": "2",
+    "name": "JavaScript Weather",
+    "description": "A weather lookup built with vanilla JavaScript.",
+    "category": "Experiments",
+    "tags": ["JavaScript", "API"],
+    "tone": "sage",
+    "source": "https://github.com/adi-4444/Java-Script-Projects/tree/master/JS-Weather-App",
+    "demo": "https://js-weather-app44.netlify.app/",
+    "image": "/projects/2.webp"
+  },
+  {
+    "id": "3",
+    "name": "Number Guessing Game",
+    "description": "A playful exercise in JavaScript logic and interaction.",
+    "category": "Experiments",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "tone": "lavender",
+    "source": "https://github.com/adi-4444/Java-Script-Projects/tree/master/Guess%20No",
+    "demo": "https://js-no-guess-game.netlify.app/",
+    "image": "/projects/3.webp"
+  },
+  {
+    "id": "7",
+    "name": "Ecommerce Categories",
+    "description": "A React storefront exploring product categories.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript"],
+    "tone": "peach",
+    "source": "https://github.com/adi-4444/React-Ecommerce",
+    "demo": "https://react-ecomm-categories.netlify.app",
+    "image": "/projects/7.webp"
+  },
+  {
+    "id": "8",
+    "name": "College Library",
+    "description": "A web interface for a college library.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript"],
+    "tone": "sand",
+    "source": "https://github.com/adi-4444/React-Library-Project",
+    "demo": "https://rguktong-library.web.app/",
+    "image": "/projects/8.webp"
+  },
+  {
+    "id": "10",
+    "name": "TeeRex Store",
+    "description": "An ecommerce experience with a cart and product filters.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript", "CSS"],
+    "tone": "sage",
+    "source": "https://github.com/adi-4444/GT-TeeRex",
+    "demo": "https://gt-tee-rex.vercel.app/",
+    "image": "/projects/10.webp"
+  },
+  {
+    "id": "9",
+    "name": "College Syllabus",
+    "description": "A simple way to browse college syllabus content.",
+    "category": "Web apps",
+    "tags": ["React", "JavaScript"],
+    "tone": "lavender",
+    "source": "https://github.com/adi-4444/React-clg-Syllabus-App",
+    "demo": "https://rgukt-syllabus.netlify.app",
+    "image": "/projects/9.webp"
+  }
+]
